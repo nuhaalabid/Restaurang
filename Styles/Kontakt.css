@@ -1,0 +1,79 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+body {
+    font-family: Arial, sans-serif;
+  }
+    
+.grid-container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+.header-content {
+    background-color: #e3aa81;
+    color: #1e1c1c;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+  }
+  
+nav ul a:hover{ 
+    background-color:rgb(209, 210, 227);
+  }
+  
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+   
+}
+
+header nav ul li a {
+    color: #1e1c1c;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+
+.contact-section {
+text-align: center;
+}
+
+.contact-section h2 {
+    color: #333;
+}
+
+.contact-section p {
+    color: #666;
+}
+#Kontakta{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #e3aa81;
+    color: #141313;
+    padding: 20px;
+    text-align: center;
+}

@@ -1,0 +1,154 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-rows: auto auto auto 1fr auto; 
+    grid-template-columns: 1fr; 
+    min-height: 10vh; 
+}
+
+  .header-content {
+    padding: 20px;
+    background-color: #e3aa81;
+    color: #2d2b2b;
+    text-align: center;
+  }
+
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    display: inline;
+}
+
+header nav ul li {
+    display: inline ;
+    margin-right: 10px;
+    
+}
+nav ul a:hover{ 
+  background-color :antiquewhite;
+}
+
+.aside-content {
+  float: right;
+  padding-left: 15px;
+  width: 100px; 
+  background-color: #d7632990;
+  min-height: 400px; 
+  color: #1b1a1a; 
+  margin-left: 20px; 
+  position: fixed; 
+  right: 0; 
+  top: 1; 
+  
+}
+.aside-content h2 {
+  font-size: 14px; 
+  margin-bottom: 20px; 
+
+}
+
+.aside-content p {
+  font-size: 13px;
+  margin-bottom: 20px; 
+  color: #000;
+}
+
+  .main-content {
+    padding: 20px;
+  }
+  
+  #Restaurang {
+    width: 100%; 
+    margin-top: 20px; 
+  }
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h3 {
+    color: #333;
+  }
+  
+  p {
+    color: #706a6a;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #e3a650;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+
+  .footer-content {
+    padding: 20px;
+    background-color: #dda165;
+    color: #fff;
+    text-align: center;
+  }
+  
+  
+
+  @media screen and (max-width: 600px) {
+    .aside-content {
+      display: none; 
+    }
+    .header-content {
+      padding: 10px; 
+    }
+  
+    .grid-container {
+      grid-template-columns: 100%; 
+    }
+
+  }
+  
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  

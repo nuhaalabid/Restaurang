@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+body {
+    font-family: Arial, sans-serif;
+  }
+
+.grid-container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+.header-content {
+    background-color: #e3aa81;
+    color: #232121;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav ul a:hover{ 
+    background-color:rgb(208, 210, 230);
+  }
+  
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+   
+}
+
+header nav ul li a {
+    color: #312f2f;
+    text-decoration: none;
+}
+
+h1 {
+    margin-bottom: 20px;
+  }
+
+
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+#Restaurang {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+footer {
+    background-color: #e3aa81;
+    color: #181818;
+    padding: 20px 0;
+    text-align: center;
+}
+
